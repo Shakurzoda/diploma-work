@@ -1,9 +1,7 @@
-
-
 export type CourseDirectionType = {
-    title: string,
-    directionName: string,
-}
+    title: string;
+    directionName: string;
+};
 
 export const coursesDirections: CourseDirectionType[] = [
     {
@@ -14,24 +12,24 @@ export const coursesDirections: CourseDirectionType[] = [
         title: 'Программирование',
         directionName: 'it'
     },
-        {
+    {
         title: 'Экономика',
         directionName: 'economic'
     },
-        {
+    {
         title: 'Менеджмент',
         directionName: 'management'
     },
-        {
+    {
         title: 'Психология',
         directionName: 'psychology'
     },
-        {
+    {
         title: 'Иностранные языки',
         directionName: 'foreignLanguage'
     },
-        {
+    {
         title: 'Дизайн',
         directionName: 'design'
-    },
-]
+    }
+];
