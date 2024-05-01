@@ -1,0 +1,20 @@
+.mainCoiteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.butt {
+    display: flex;
+    justify-content: end;
+}
+
+.buttt {
+    width: 300px;
+    height: 50px;
+}

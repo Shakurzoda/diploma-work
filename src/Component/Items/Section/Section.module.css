@@ -1,0 +1,13 @@
+.cointeiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 100px;
+}
+
+.section__bar {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+}

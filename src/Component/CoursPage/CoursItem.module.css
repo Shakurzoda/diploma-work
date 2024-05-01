@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #d0fa9b;
+    border-radius: 20px;
+}
+
+
+.card__wrraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px 0 15px 0;
+    width: 400px;    
+}
+
+.level {
+    padding-top: 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.profesion {
+    padding-bottom: 10px;
+    color: black;
+}
