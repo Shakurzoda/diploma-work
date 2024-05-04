@@ -4,6 +4,8 @@ import { Button } from '../UI/Button/Button';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const currentUser = JSON.parse(localStorage.getItem('currentUser') || '');
+
     return (
         <header className={styles.header}>
             <div className={styles.heade__wrapper}>
@@ -28,11 +30,19 @@ const Header = () => {
                         </li>
                         <li className={styles.link}>
                             <Button>
-                                <Link to="">Войти</Link>
+                                <Link to="auth">Войти</Link>
                             </Button>
                         </li>
                     </ul>
                 </nav>
+                <div>
+                    {currentUser?.login && (
+                        <div>
+                            <span> {currentUser.login}</span>
+                            <span> {currentUser.role}</span>
+                        </div>
+                    )}
+                </div>
             </div>
         </header>
     );
